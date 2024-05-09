@@ -1,4 +1,6 @@
 # 计算两个字符串的最长公共子序列（Longest Common Subsequence, LCS）的长度
+## 解答
+```python
 def longestCommonSubsequence(text1, text2):
     # calculate the size of the first and second string
     sz1, sz2 = len(text1), len(text2)
@@ -14,3 +16,4 @@ def longestCommonSubsequence(text1, text2):
 if __name__ == '__main__':
     lcs = longestCommonSubsequence('dfadb','dfb')
     print(lcs)
+```
