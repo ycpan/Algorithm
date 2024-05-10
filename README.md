@@ -26,3 +26,18 @@
     - 与[字母异位词分组(leetcode)](./content/49.md)的区别在于，一个是字符串，一个是数组，数组中是字符串
     - 这个是两个字符
 - [ ] [和为k的子数组(leetcode)](./content/560.md)
+- [ ] [滑动窗口最大值(leetcode)](./content/239.md)
+- [ ] [最小覆盖子串(leetcode)](./content/76.md)
+- [x] [最大子数组和(leetcode)](./content/53.md)
+- [x] [合并区间(leetcode)](./content/56.md)
+- [x] [转轮数组(leetcode)](./content/189.md)
+- [x] [除自身以外数组的乘积(leetcode)](./content/238.md)
+- [] [缺失的第一个正数(leetcode)](./content/41.md)
+- [x] [矩阵置零(leetcode)](./content/73.md)
+- [x] [(螺旋矩阵(leetcode)](./content/54.md)
+- [x] [旋转图像(leetcode)](./content/48.md)
+- [x] [搜索二维矩阵(二）(leetcode)](./content/240.md)
+- [x] [相交链表(leetcode)](./content/160.md)
+- [ ] [回文链表(leetcode)](./content/234.md)
+    - **没有跑成功**
+- [ ] [环形链表(leetcode)](./content/141.md)
