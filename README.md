@@ -53,3 +53,5 @@
 - [ ] [合并K个升序链表(leetcode)](./content/23.md)
     - **没有跑成功**
 - [ ] [LRU缓存(leetcode)](./content/146.md)
+- [x] [买卖股票的最佳时机(leetcode)](./content/121.md)
+- [x] [跳跃游戏(leetcode)](./content/55.md)
