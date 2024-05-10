@@ -40,4 +40,16 @@
 - [x] [相交链表(leetcode)](./content/160.md)
 - [ ] [回文链表(leetcode)](./content/234.md)
     - **没有跑成功**
-- [ ] [环形链表(leetcode)](./content/141.md)
+- [x] [环形链表(leetcode)](./content/141.md)
+- [x] [环形链表2(leetcode)](./content/142.md)
+    - 与[环形链表(leetcode)](./content/141.md)的区别在于，这个是返回pos，那个是返回判断是否有环True或者False
+- [x] [合并两个有序链表(leetcode)](./content/21.md)
+- [x] [两数相加(leetcode)](./content/2.md)
+- [x] [删除链表的倒数第N个节点(leetcode)](./content/19.md)
+- [ ] [两两交换链表中节点(leetcode)](./content/24.md)
+- [ ] [k个一组反转链表(leetcode)](./content/25.md)
+- [ ] [随机链表的复制(leetcode)](./content/138.md)
+- [ ] [链表排序(leetcode)](./content/148.md)
+- [ ] [合并K个升序链表(leetcode)](./content/23.md)
+    - **没有跑成功**
+- [ ] [LRU缓存(leetcode)](./content/146.md)
