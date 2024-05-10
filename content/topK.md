@@ -1,3 +1,6 @@
+# topK问题
+## 解题
+```python
 def quick_sort(nums, k):
     # 从nums数组中选择最大的k个数，并且不使用额外存储空间
     # 这个时间复杂度为nlogn,时间复杂度并不是最优的
@@ -25,3 +28,4 @@ def quick_sort(nums, k):
         quickSort(data,i + 1,end)
     quick_sort_1(start,end,nums)
     return nums[end-k:]
+```

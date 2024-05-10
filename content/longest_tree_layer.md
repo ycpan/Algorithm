@@ -1,3 +1,6 @@
+# 二叉树最长宽度
+## 解题
+```python
 class Node():
     def __init__(self,):
         self.left = None
@@ -42,6 +45,6 @@ def get_longest_layer(node):
             res = res_tmp
             count = tmp
     return res,count
-
+```
 
 
