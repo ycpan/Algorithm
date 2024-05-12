@@ -39,7 +39,6 @@
 - [x] [搜索二维矩阵(二）(leetcode)](./content/240.md)
 - [x] [相交链表(leetcode)](./content/160.md)
 - [ ] [回文链表(leetcode)](./content/234.md)
-    - **没有跑成功**
 - [x] [环形链表(leetcode)](./content/141.md)
 - [x] [环形链表2(leetcode)](./content/142.md)
     - 与[环形链表(leetcode)](./content/141.md)的区别在于，这个是返回pos，那个是返回判断是否有环True或者False
@@ -51,7 +50,6 @@
 - [ ] [随机链表的复制(leetcode)](./content/138.md)
 - [ ] [链表排序(leetcode)](./content/148.md)
 - [ ] [合并K个升序链表(leetcode)](./content/23.md)
-    - **没有跑成功**
 - [ ] [LRU缓存(leetcode)](./content/146.md)
 - [x] [买卖股票的最佳时机(leetcode)](./content/121.md)
 - [ ] [跳跃游戏(leetcode)](./content/55.md)
@@ -79,7 +77,6 @@
 - [ ] [子集(leetcode)](./content/78.md)
 - [ ] [电话号码的字母组合(leetcode)](./content/17.md)
 - [ ] [组合总和(leetcode)](./content/39.md)
-    - 测试通过，提交没有通过
 - [ ] [括号生成(leetcode)](./content/22.md)
 - [ ] [单词搜索(leetcode)](./content/79.md)
 - [ ] [分割回文串(leetcode)](./content/131.md)
@@ -96,9 +93,22 @@
 - [ ] [每日温度(leetcode)](./content/739.md)
 - [ ] [柱状图中最大矩形(leetcode)](./content/84.md)
 - [ ] [数组中的第K个最大元素(leetcode)](./content/215.md)
-    - 提交没有通过
 - [ ] [前K个高频元素(leetcode)](./content/347.md)
 - [ ] [数据流的中位数(leetcode)](./content/295.md)
 - [ ] [爬楼梯(leetcode)](./content/70.md)
 - [ ] [杨辉三角(leetcode)](./content/118.md)
 - [ ] [打家劫舍(leetcode)](./content/198.md)
+- [ ] [完全平方数(leetcode)](./content/279.md)
+- [ ] [零钱兑换(leetcode)](./content/322.md)
+- [ ] [单词拆分(leetcode)](./content/139.md)
+- [ ] [最长递增子序列(leetcode)](./content/300.md)
+- [ ] [最长有效括号(leetcode)](./content/32.md)
+- [ ] [不同路径(leetcode)](./content/62.md)
+- [ ] [最小路径和(leetcode)](./content/64.md)
+- [ ] [最长回文子串(leetcode)](./content/5.md)
+- [ ] [最长公共子序列(leetcode)](./content/1143.md)
+- [ ] [编辑距离(leetcode)](./content/72.md)
+- [x] [只出现一次数字(leetcode)](./content/136.md)
+- [x] [多数元素(leetcode)](./content/169.md)
+- [ ] [下一个排列(leetcode)](./content/31.md)
+- [ ] [寻找重复数(leetcode)](./content/287.md)
