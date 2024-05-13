@@ -44,7 +44,7 @@
 - [x] [旋转图像(leetcode)](./content/48.md)
 - [x] [搜索二维矩阵(二）(leetcode)](./content/240.md)
 - [x] [相交链表(leetcode)](./content/160.md)
-- [ ] [回文链表(leetcode)](./content/234.md)
+- [x] [回文链表(leetcode)](./content/234.md)
 - [x] [环形链表(leetcode)](./content/141.md)
 - [x] [环形链表2(leetcode)](./content/142.md)
     - 与[环形链表(leetcode)](./content/141.md)的区别在于，这个是返回pos，那个是返回判断是否有环True或者False
