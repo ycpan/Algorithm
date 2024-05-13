@@ -37,7 +37,8 @@
 - [x] [合并区间(leetcode)](./content/56.md)
 - [x] [转轮数组(leetcode)](./content/189.md)
 - [x] [除自身以外数组的乘积(leetcode)](./content/238.md)
-- [ ] [缺失的第一个正数(leetcode)](./content/41.md)
+- [x] [缺失的第一个正数(leetcode)](./content/41.md)
+    - 人家要的是最小的正数，而不是连续的最小的正数
 - [x] [矩阵置零(leetcode)](./content/73.md)
 - [x] [(螺旋矩阵(leetcode)](./content/54.md)
 - [x] [旋转图像(leetcode)](./content/48.md)

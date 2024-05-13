@@ -1,27 +1,21 @@
-def combinationSum(candidates, target):
-    def backtrack(start, target, path):
+def subsets(nums):
+    def backtrack(start, path):
         import ipdb
         ipdb.set_trace()
-        # 如果当前和等于目标数，说明找到一个组合
-        if target == 0:
-            output.append(path[:])
-            return
-        # 如果当前和小于目标数，继续寻找下一个数字
-        for i in range(start, len(candidates)):
-            # 如果当前数字大于目标数，则无需继续
-            if candidates[i] > target:
-                break
+        # 将当前路径添加到结果中
+        output.append(path[:])
+        # 从start开始遍历数组
+        for i in range(start, len(nums)):
             # 选择当前数字，加入到路径中
-            path.append(candidates[i])
-            # 递归调用，处理剩余的目标数
-            backtrack(i, target - candidates[i], path)
+            path.append(nums[i])
+            # 递归调用，处理下一个数字
+            backtrack(i + 1, path)
             # 回溯，撤销选择
             path.pop()
 
     output = []
-    backtrack(0, target, [])
+    backtrack(0, [])
     return output
 # 示例
-candidates = [2,3,6,7]
-target = 7
-print(combinationSum(candidates, target))
+nums = [1,2,3]
+print(subsets(nums))
