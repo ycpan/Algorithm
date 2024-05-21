@@ -1,7 +1,39 @@
 # python中自有的堆，栈和队列
 ## 堆
+python中的堆一般用来做大堆，小堆，可以解决topK的问题
+heapq 对外暴露的方法：
+
+![F%i](pic/heapq_1.png)
+
+感觉`heapq`就是一种操作，数据载体可以是list或者字典(需要key，value的形式）,当由于输入载体过来的时候，记录下数据载体的key和value，然后再heapq内部，用list存储key，做一个堆。
+
+heapq 的存取方法有3种：
+### 1. 不限制数量，一个一个插入
+
+使用list，list用来存储,一个一个往里面插入(合并k个升序链表可以用到)
+```
+heap = []
+heapq.heappush(heap,(head.val,i))# 这个默认是小顶堆 # 存
+val,idx = heapq.heappop(heap)# 读出来这个数 # 取
+```
+### 2. 不限制数量，一下子插入
+
+使用list，list一下子插进去:
+```
+heapq.heapify(array) # 存，array，改变了，直接带取
+print("array:", array)
+#array: [1, 2, 5, 3, 4]
+```
+### 3. 限制数量为`k`
+
+k个大顶堆
 ```
 import heapq
+from collections import Counter
+nums = [1,1,1,2,2,3]
+freq = Counter(nums)
+# 构建一个最小堆，大小为k
+heapq.nlargest(k, freq.keys(), key=freq.get) # 带存带取
 
 data = [1, 3, 5, 7, 9, 2, 4, 6, 8, 0]
 
@@ -11,6 +43,13 @@ print(heapq.nlargest(3, data))  # 输出: [9, 8, 7]
 # 获取最小的3个元素
 print(heapq.nsmallest(3, data))  # 输出: [0, 1, 2]
 ```
+
+用到的有:   
+[前K个高频元素](./347.md)
+
+[合并K个升序链表](./23.md)
+
+heapq的源码在`/Users/pan/anaconda3/lib/python3.8/heapq.py`中，可以查看
 ## 栈
 通常用list,入栈就是append，出栈就是pop，list有这个方法。
 
