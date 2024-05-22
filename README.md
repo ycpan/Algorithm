@@ -37,6 +37,7 @@
 - [ ] [合并区间(leetcode)](./content/56.md)
 - [ ] [转轮数组(leetcode)](./content/189.md)
 - [ ] [除自身以外数组的乘积(leetcode)](./content/238.md)
+- [ ] [数组找到比左边大比右边小的元素(leetcode)](./content/找出无序数组中比左边大比右边小的元素.md)
 - [ ] [缺失的第一个正数(leetcode)](./content/41.md)
     - 人家要的是最小的正数，而不是连续的最小的正数
 - [ ] [矩阵置零(leetcode)](./content/73.md)
@@ -118,3 +119,5 @@
 - [ ] [多数元素(leetcode)](./content/169.md)
 - [ ] [下一个排列(leetcode)](./content/31.md)
 - [ ] [寻找重复数(leetcode)](./content/287.md)
+- [ ] [寻找重复数(leetcode)](./content/背包问题（从盒子里取糖果）.md)
+
