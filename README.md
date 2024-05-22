@@ -119,5 +119,5 @@
 - [ ] [多数元素(leetcode)](./content/169.md)
 - [ ] [下一个排列(leetcode)](./content/31.md)
 - [ ] [寻找重复数(leetcode)](./content/287.md)
-- [ ] [寻找重复数(leetcode)](./content/背包问题（从盒子里取糖果）.md)
+- [ ] [背包问题（从盒子里取糖果）(leetcode)](./content/背包问题（从盒子里取糖果）.md)
 

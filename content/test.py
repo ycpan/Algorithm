@@ -16,5 +16,6 @@ def longest_valid_parentheses(s: str) -> int:
         max_length = max(max_length, len(s) - 1 - stack[-1])
     return max_length
 # 测试示例
-test_cases = ["(()", ")()())", ""]
+#test_cases = ["(()", ")()())", ""]
+test_cases = [ ")(()))())", ""]
 results = [longest_valid_parentheses(tc) for tc in test_cases]
