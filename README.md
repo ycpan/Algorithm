@@ -128,4 +128,5 @@
 - [ ] [下一个排列(leetcode)](./content/31.md)
 - [ ] [寻找重复数(leetcode)](./content/287.md)
 - [ ] [背包问题（从盒子里取糖果）(leetcode)](./content/背包问题（从盒子里取糖果）.md)
-
+## 排序专题
+- [ ] [排序专题](./content/排序.md)
