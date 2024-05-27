@@ -1,13 +1,16 @@
-def solve(n):
-    dp= [float('inf')] * (n + 1)
-    dp[0] = 0
+from collections import Counter
+# find top k
+def solve(li,k):
+    import heapq
+    new_k = Counter(li)
 
-    import ipdb
-    ipdb.set_trace()
-    for i in range(n):
-        square = i*i
-        for j in range(square,n+1):
-            dp[j] = min(dp[j],dp[j - square] + 1)
+    xy=heapq.nlargest(k,new_k.keys(),key=new_k.get)
+    return xy
+def solve(li,k):
+    import myheapq
+    new_k = Counter(li)
+    new_k = new_k.values
 
-    return dp[n]
-print(solve(12))  # 输出应该是 3
+    xy=myheapq.nlargest(k,)
+    return xy
+print(solve([1,1,2,9,8,6,9,5,6,2],3))
